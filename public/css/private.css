@@ -1,0 +1,240 @@
+html {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family:Roboto, Tahoma, Geneva, sans-serif;
+  font-size:8pt;
+  line-height:1.5em;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  padding-top: 70px;
+  margin-bottom: 130px;
+}
+
+img.form-image{
+  border:1px solid #cccccc;
+}
+
+#nav{
+  padding-right: 20px !important;
+  /*
+  background: #8C2300;
+  */
+}
+
+.input-daterange input {
+  text-align: left;
+}
+
+.navbar-toggle{
+  border-color: #fff !important;
+}
+
+#footer{
+  color: #ffffff;
+  background: #0D1D2D url("../images/footer_border.png") top left repeat-x;
+  padding: 8px;
+  text-align: center;
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+} 
+
+.signin-form{
+  width: 240px;
+  margin: 0 auto 0 auto;
+}
+
+td.nowrap, th.nowrap, div.nowrap{
+  white-space:nowrap;
+}
+
+table.tablesorter td span.glyphicon{
+}
+
+table.tablesorter td a span.glyphicon{
+}
+
+table.tablesorter td h5{
+  margin-top: 0;
+}
+
+input[type="file"] {
+    padding-bottom: 34px;
+}
+
+span.full-width{
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+/* ***************************************************************************************************** */
+
+div.img_box{
+  display: inline-block;
+  width: 200px;
+  border: 1px solid #c0c0c0;
+  margin-bottom: 10px;
+  padding: 0;
+  background: #d0d0d0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+div.img_box:hover{
+  border: 1px solid #660000;
+  background: #660000;
+  color: #fff;
+}
+
+div.img_box_clipper{
+  display: block;
+  overflow: hidden;
+  height: 100px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+img.img_box_thumbnail{
+  display: block;
+  width: 100%;  
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+div.well-scroller{
+  height:190px;
+  overflow: auto;
+}
+
+/* **************************************************************************************************** */
+
+div.subnav{
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+/*.navbar{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: block !important;
+}
+
+
+.navbar:after{
+  content: none; !important;
+}
+*/
+
+.panel-title{
+  font-size: 2em;
+}
+
+.detail-name{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.control-label small{
+  color: #999;
+}
+
+/* **************************************************************************************************** */
+
+div#map-wrapper{
+  min-height: 100%;
+  height: 400px;
+  width: 100%;
+}
+
+div#map-wrapper #map{
+  width: 100%;
+  height: 100%;
+}
+
+div#map-location-picker{
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+}
+
+/* **************************************************************************************************** */
+
+div.vertifloat{
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+div.loginform{
+  display: inline-block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+/* **************************************************************************************************** */
+div.barcode-wrapper{
+  width: 250px;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border:1px solid #f0f0f0;
+  margin: 0;
+}
+
+div.barcode-header, div.barcode-title, div.barcode-code, div.barcode-number, div.barcode-footer{
+  text-align: center;
+}
+
+div.barcode-header{
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+div.barcode-title{
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+div.barcode-code{
+  width: 160px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+div.barcode-footer{
+  font-family: 'Roboto';
+  font-size: 10pt;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+@media print, screen { 
+    .barcode-bar { 
+      background: #000000;
+      -webkit-print-color-adjust:exact !important;
+    } 
+}
